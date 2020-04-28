@@ -70,7 +70,7 @@ export default {
     valid: true,
     dialog: false,
     loading: false,
-    snackbar: true,
+    snackbar: false,
     name: "",
     email: "",
     message: "",
