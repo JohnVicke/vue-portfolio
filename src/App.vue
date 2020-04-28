@@ -15,9 +15,30 @@
 
           <v-spacer></v-spacer>
           <div class="hidden-md-and-down">
-            <v-btn text class="mr-2">About Me</v-btn>
-            <v-btn text class="mr-2">Skills</v-btn>
-            <v-btn text class="mr-2">Contact</v-btn>
+             <v-btn
+                            @click="$vuetify.goTo('#about', { offset: -100 })"
+                            text
+                            class="mr-2"
+                            >About Me</v-btn
+                        >
+                        <v-btn
+                            @click="$vuetify.goTo('#skills', { offset: 100 })"
+                            text
+                            class="mr-2"
+                            >Skills</v-btn
+                        >
+                        <v-btn
+                            text
+                            class="mr-2"
+                            @click="$vuetify.goTo('#projects', { offset: 0 })"
+                            >Projects</v-btn
+                        >
+                        <v-btn
+                            text
+                            class="mr-2"
+                            @click="$vuetify.goTo('#contact', { offset: 100 })"
+                            >Contact</v-btn
+                        >
           </div>
           <div class="hidden-lg-and-up">
             <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
