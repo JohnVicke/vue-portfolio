@@ -92,11 +92,10 @@ export default {
     sendEmail() {
       if (this.$refs.form.validate()) {
         this.loading = true;
-        const {
-          service_id,
-          template_id,
-          user_id
-        } = require("../assets/email/mailApi.json");
+        const service_id = process.env.VUE_APP_SERVICE_ID;
+        const template_id = process.env.VUE_APP_TEMPLATE_ID;
+        const user_id = process.env.VUE_APP_USER_ID;
+                
 
         const template_paramas = {
           user_name: this.name,
