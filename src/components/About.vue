@@ -16,7 +16,7 @@
             <b>Interaction Technology and Design</b>
           </a>
           and a bachelors degree in Computer Science at Umeå
-          University
+          University.
         </p>
       </div>
     </div>
