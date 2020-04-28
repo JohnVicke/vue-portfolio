@@ -132,8 +132,8 @@ export default {
             },
             {
                 id: 3,
-                web: require('@/assets/projects/ad_depot.png'),
-                mobile: require('@/assets/projects/ads_mobile.png'),
+                web: require('@/assets/projects/depot.png'),
+                mobile: require('@/assets/projects/depot_mobile.png'),
                 name: 'Annonsdepån ( Ad-depot)',
                 desc:
                     'Annonsdepån (Ad-depot) is running two different backend-systems. One for subscribers and one for ads. Users that are subscribers and companies can upload ads. Its basically a small ebay clone. ',
