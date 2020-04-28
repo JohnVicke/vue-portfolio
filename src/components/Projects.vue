@@ -173,11 +173,11 @@ export default {
             },
             {
                 id: 3,
-                web: require('@/assets/projects/ad_depot.png'),
-                mobile: require('@/assets/projects/ads_mobile.png'),
+                web: require('@/assets/projects/depot.png'),
+                mobile: require('@/assets/projects/depot_mobile.png'),
                 name: 'Annonsdepån ( Ad-depot)',
                 desc:
-                    'Annonsdepån (Ad-depot) is a fullstack project running two different backend systems. One for subscribers and one for ads. Users that are subscribers and companies can upload ads, everyone can view ads. Its basically a small ebay clone. ',
+                    'Annonsdepån is a fullstack project running two different backend systems. One for subscribers and one for ads. Users that are subscribers and companies can upload ads, everyone can view ads. Its basically a small ebay clone. ',
                 tech: [
                     { icon: 'mdi-vuejs', desc: 'VueJS' },
                     { icon: 'mdi-nodejs', desc: 'ExpressJS' },
