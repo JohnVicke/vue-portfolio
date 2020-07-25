@@ -1,0 +1,33 @@
+{
+    "home": {
+        "subheader": "Software developer / Student / Freelancer"
+    },
+    "buttons": {
+        "contactMe": "Contact me"
+    },
+    "nav": {
+        "home": "Home",
+        "about": "about",
+        "projects": "projects",
+        "skills": "skills",
+        "contact": "Contact"
+    },
+    "about": {
+        "header": "About Me",
+        "content": {
+            "part1": "I am a versatile software developer with an attention to flexability, speed and quality. Ambitious problem solver and someone who loves creating cool stuff.\n\nInterested in the entire web-development spectrum, both front and back end. Fan of outdoor activites, TV series and lifting weights.\n\nCurrently studying to get a MSc in",
+            "link": "Interaction Technology & Design",
+            "part2": "and a bachelors degree in Computer Science at Umeå University, therefore remote, part time, summer employment or internships are preferred."
+        }
+    },
+    "skills": {
+        "header": "Skills",
+        "content": {
+            "part1": "I mainly work within web development and have experience with different frameworks for the client and server.\n\n Worked on larger corporate projects and smaller side-projects where my main goal is always to learn something new.\n\n A succesfull project is a project where I’m proud to say that I was a part of the process.\n\nLearn more about my past experience on my ",
+            "linkedIn": "LinkedIn",
+            "part2": " or ",
+            "contact": "contact me",
+            "part3": " if you have any further questions."
+        }
+    }
+}

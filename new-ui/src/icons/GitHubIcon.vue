@@ -1,0 +1,26 @@
+
+<template>
+  <nav-icon hiddenText="github" :active="isActive">
+    <template v-slot:svg>
+      <svg
+        width="34"
+        height="35"
+        viewBox="0 0 34 35"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M8.17651 13V33H25.8236V23" stroke="#E167FF" stroke-width="3" />
+        <path d="M2 20L17 3L32 20" stroke="#E167FF" stroke-width="3" />
+      </svg>
+    </template>
+  </nav-icon>
+</template>
+
+<script lang="ts">
+import { Vue, Component, Prop } from "vue-property-decorator";
+
+import NavIcon from "@/components/NavIcon.vue";
+
+@Component({ components: { NavIcon } })
+export default class GitHubIcon extends Vue {}
+</script>

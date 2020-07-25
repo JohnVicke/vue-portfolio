@@ -1,0 +1,19 @@
+{
+    "home": {
+        "subheader": "Mjukvaruutvecklare / Student / Frilansare"
+    },
+    "buttons": {
+        "contactMe": "kontakta mig"
+    },
+    "nav": {
+        "home": "hem",
+        "about": "om mig",
+        "projects": "projekt",
+        "skills": "kunskaper",
+        "contact": "kontakt"
+    },
+    "about": {
+        "header": "Om mig",
+        "info": ""
+    }
+}
